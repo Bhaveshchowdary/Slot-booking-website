@@ -1,0 +1,133 @@
+.bookslottxt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border: 2px solid black;
+    height: 100px;
+    background-color: blueviolet;
+}
+
+body{
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+
+.backtohome{
+    flex: 1;
+}
+
+.txt{
+    flex: 3.3;
+    font-size: 60px;
+    color: aliceblue;
+    font-family: dancing script;
+    text-align: center;
+}
+
+.backtoviewslots{
+    flex: 1;
+}
+
+.backtohomebutton{
+    font-size: 40px;
+    font-family: dancing script;
+    margin-left: 50px;
+    border: 1px solid black;
+    background-color: rgb(131, 248, 248);
+    color: black;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-shadow: 2px 2px 3px;
+    text-decoration: none;
+}
+
+.backtoviewslotsbutton{
+    font-size: 40px;
+    font-family: dancing script;
+    margin-left: 50px;
+    border: 1px solid black;
+    background-color: rgb(131, 248, 248);
+    color: black;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-shadow: 2px 2px 3px;
+    text-decoration: none;
+}
+
+.formdata{
+    display: flex;
+    flex-direction: row;
+}
+
+.leftspace{
+    flex: 1;
+    background-image: url(images/formdivbackground2.jpeg);
+    opacity: 0.9;
+}
+
+.formspace{
+    flex: 1;
+    border: 1px solid black;
+    background-image: url(images/formbackground.jpeg);
+}
+
+.rightspace{
+    flex: 1;
+    background-image: url(images/formdivbackground2.jpeg);
+    opacity: 0.9;
+}
+
+p{
+    font-size: 40px;
+    margin-left: 2%;
+}
+
+input{
+    font-size: 35px;
+    margin-left: 2%;
+}
+
+
+
+.name{
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: rgb(214, 214, 214);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+.phoneno{
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: rgb(214, 214, 214);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+
+}
+
+.roomno{
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: rgb(214, 214, 214);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+.submit{
+    margin-left: 38%;
+    margin-bottom: 5%;
+    width: 125px;
+}
+
+.slottime{
+    font-size: 30px;
+    margin-left: 25%;
+    background-color: white;
+    border: 1px solid black;
+}
